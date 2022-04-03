@@ -48,6 +48,7 @@ function NFTDropPage() {
         </header>
 
         <hr className="my-2 border" />
+
         {address && (
           <p className="text-center text-sm text-gray-400">
             You are logged in with wallet{" "}

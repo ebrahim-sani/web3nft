@@ -75,7 +75,7 @@ function NFTDropPage({ collection }: Props) {
           <h1 className="text-3xl font-bold lg:text-5xl text-extrabold">
             {collection.title}
           </h1>
-          <p className="pt-2 text-xl text-green-500">13 / 21 NFT's</p>
+          <p className="pt-2 text-xl text-green-500">13 / 21 NFT&apos;s</p>
         </div>
 
         <button className="h-16 font-bold bg-red-600 w-full text-white rounded-full">

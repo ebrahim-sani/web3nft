@@ -17,14 +17,15 @@ const Home = ({ collections }: Props) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="mb-10 text-4xl font-extralight">
-        The{" "}
-        <span className="font-extrabold underline decoration-pink-600/50">
-          PAPAFAM
-        </span>{" "}
-        NFT Marketplace
-      </h1>
-
+      <Link href={"/"}>
+        <h1 className="mb-10 text-4xl font-extralight">
+          The{" "}
+          <span className="font-extrabold underline decoration-pink-600/50">
+            PAPAFAM
+          </span>{" "}
+          NFT Marketplace
+        </h1>
+      </Link>
       <main className="bg-slate-100 shadow-xl shadow-rose-400/20 p-10">
         <div className="grid space-x-3 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
           {collections.map((collection) => (
